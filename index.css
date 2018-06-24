@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin:0;
+}
+body{
+  font-family: sans-serif;
+}
+a {
+  color: #404040;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.clear{
+  clear:both;
+}
+/* main-color */
+.green-font{color:#88c542;}
+.orange-font{color:#f0a32f;}
+.yellow-font{color:#f9ed3a;}
+
+.green-box{background-color:#88c542;}
+.orange-box{background-color:#f0a32f;}
+.yellow-box{background-color: #f9ed3a;}
+
+/*   header   */
+header{
+  height:60px;
+}
+.header-container{
+  margin:0px 50px;
+}
+
+.header-left{
+  float:left;
+  line-height: 60px;
+}
+.header-left h1{
+  font-size: 40px;
+}
+.i{color:red;}
+.p{color:#88c542;}
+.a{color:#f0a32f;}
+.k{color:#f9ed3a;}
+
+.header-right li a{
+  float:right;
+  line-height: 60px;
+  margin-left: 20px;
+  font-weight: bold;
+  color:#88c542;
+}
+
+/*   top   */
+.top-wrapper{
+  background-image:url(img/top-image.jpg);
+  background-size: cover;
+  background-color:rgba(0,0,0,0.6);
+  height:600px;
+}
+.top-container{
+  width:1170px;
+  margin:0 auto;
+  padding-top:150px;
+}
+.top-container h1{
+  text-align: center;
+  font-size:70px;
+  letter-spacing: 5px;
+}
+.top-container p{
+  text-align: center;
+  color:white;
+}
+
+/*  area  */
+.area-wrapper{
+  padding:50px 0px;
+
+}
+.area-wrapper h2{
+  text-align: center;
+  padding-top:20px;
+  font-size:30px;
+}
+.area-container{
+  width:1170px;
+  margin:0 auto;
+}
+.choice-box{
+  display: inline-block;
+  border-radius: 50%;
+  height:200px;
+  width:200px;
+  margin:30px 10px;
+  text-align: center;
+}
+.choice-box p{
+  margin-top:70px;
+  font-size:35px;
+}
+
+/*  parking-wrapper  */
+.parking-wrapper{
+  padding:50px 0px;
+  background-color: #88c542;
+  height:400px;
+}
+.parking-container{
+  width:1170px;
+  margin:0 auto;
+}
+.parking-container h2{
+  text-align: center;
+  margin-bottom:20px;
+}
+.parking-box{
+  display: inline-block;
+  margin-right: 30px;
+}
+.parking-box p{
+  background-color:#f0a32f;
+  text-align: center;
+  border-radius: 5px;
+  color:white;
+}
+.parking-box img{
+  border-radius: 15px;
+  width:300px;
+  height: 280px;
+}
+.boxes{
+  overflow-x:scroll;
+  height:400px;
+  display:flex;
+}
+
+/*  athletic-wrapper  */
+.athletic-wrapper{
+  padding: 50px 0px;
+  height:400px;
+}
+.athletic-container{
+  width:1170px;
+  margin:0 auto;
+}
+.athletic-container h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*  footer  */
+footer{
+  background-color:#88c542;
+  height: 200px;
+}
