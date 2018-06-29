@@ -50,6 +50,12 @@ header{
   margin-left: 20px;
   font-weight: bold;
   color:#88c542;
+  padding-left:2px;
+  padding-right:2px;
+}
+.header-right li a:hover{
+  background-color: #f9ed3a;
+  transition-duration: 0.5s;
 }
 
 /*   top   */
@@ -99,6 +105,10 @@ header{
 .choice-box p{
   margin-top:70px;
   font-size:35px;
+}
+.choices a div:hover{
+  transform:scale(1.1);
+  transition-duration:0.5s;
 }
 
 /*  parking-wrapper  */
