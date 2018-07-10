@@ -29,7 +29,6 @@ li{
 
 /*   header   */
 @media(max-width:670px){
-  /* h1のcolorをblueに指定してください */
   .header-right{
     display: none;
   }
@@ -52,6 +51,7 @@ header{
 .header-left{
   float:left;
   line-height: 60px;
+  cursor: pointer;
 }
 .header-left h1{
   font-size: 40px;
@@ -69,6 +69,7 @@ header{
   color:#88c542;
   padding-left:2px;
   padding-right:2px;
+  cursor: pointer;
 }
 .header-right li a:hover{
   background-color: #f9ed3a;
