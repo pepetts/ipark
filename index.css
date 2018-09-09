@@ -32,8 +32,11 @@ li{
   .header-right{
     display: none;
   }
-  .header-left h1 a{
-    font-size:30px;
+  .header-left h1 span{
+    font-size:20px;
+  }
+  .fa-bars{
+    display:block;
   }
 }
 header{
@@ -73,10 +76,13 @@ header{
   cursor: pointer;
 }
 .header-right li a:hover{
-  background-color: #f9ed3a;
-  transition-duration: 0.5s;
+  /* background-color: #f9ed3a; */
+  /* transition-duration: 0.5s; */
+  text-decoration:underline;
 }
-
+.fa-bars{
+  display: none;
+}
 /*   top   */
 .top-wrapper{
   width:100%;
